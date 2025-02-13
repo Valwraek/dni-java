@@ -1,0 +1,85 @@
+# Directorios y archivos generados por compiladores
+bin/
+build/
+out/
+target/
+
+# Archivos de configuración del IDE
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+/.idea_modules/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/shelf/
+.idea/**/gradle.xml
+.idea/**/libraries/
+.idea/**/vcs.xml
+.idea/**/modules.xml
+
+### Visual Studio Code ###
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Archivos generados por Gradle y Maven
+.gradle/
+**/build/
+gradle-app.setting
+gradle-wrapper.jar
+gradle-wrapper.properties
+gradle/
+gradlew
+gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+
+# Archivos generados por Eclipse (en caso de que lo uses ocasionalmente)
+.metadata/
+.classpath
+.project
+.settings/
+
+# Archivos de logs
+*.log
+hs_err_pid*
+
+# Archivos de dependencia de paquetes
+lib/
+*.jar
+*.war
+*.ear
+
+# Archivos de configuración específicos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de pruebas y debugging
+test-output/
+surefire-reports/
+
+# Archivos de usuario de Maven
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# Archivos de cobertura de código y análisis estático
+jacoco/
+coverage/
+coverage.xml
+*.lcov
+
+# Archivos de empaquetado de aplicación
+*.class
+
+
+# Archivos temporales del sistema
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
